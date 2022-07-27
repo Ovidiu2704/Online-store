@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+:focus {
+    box-shadow: 0 0 0 10px rgba(66, 100, 235, 0.3);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f1f3f5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b197fc;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+li a:hover {
+    background-color: #4263eb;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+.bg-dark {
+    background-color: rgb(40, 40, 40);
+}
+
+.w-full {
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+.grid-container {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: grid;
+    height: auto;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #f1f3f5;
+    padding: 10px;
+}
+
+.grid-container>div {
+    max-width: 500px;
+    text-align: center;
+    font-size: 30px;
+    overflow: hidden;
+    border-radius: 13px;
+}
+
+.grid-container>div img {
+    transition: all 0.3s ease-in-out;
+    border-radius: 13px;
+}
+
+.grid-container>div img:hover {
+    transform: scale(1.1);
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+} 
+
+.form__wrapper {
+    max-width: 400px;
+    margin: 90px auto 50px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #e5dbff;
+    padding: 48px 48px 0 48px;
+    border-radius: 13px;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+input {
+    border-radius: 12px;
+    border-style: none;
+    margin-bottom: 36px;
+    padding: 8px 16px;
+    background-color: #d0bfff;
+
+    grid-column: -1/1;
+    place-self: center;
+}
+
+textarea {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 24px;
+}
+
+.error {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #f03e3e;
+    width: 50%;
+    padding: 12px 24px;
+    background-color: #ffe3e3;
+    margin: 0 auto 12px auto;
+    border-radius: 13px;
+}
+
+.data__table {
+    padding: 24px;
+    background-color: #e5dbff;
+}
+
+.data__row {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
